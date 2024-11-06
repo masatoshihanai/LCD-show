@@ -93,7 +93,7 @@ sudo cp ./waveshare35b-overlay.dtb /boot/firmware/overlays/
 if [ -b /dev/mmcblk0p7 ]; then
 sudo cp ./cmdline.txt-noobs /boot/firmware/cmdline.txt
 else
-sudo cp ./cmdline.txt /boot/
+sudo cp ./cmdline.txt /boot/firmware/
 fi
 
 sudo cp ./inittab /etc/
